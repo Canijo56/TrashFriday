@@ -1,0 +1,2 @@
+/[Ss]ound/[Aa]udio/
+/[Cc]onfigs/
