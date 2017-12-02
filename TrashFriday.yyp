@@ -47,11 +47,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "1e2d4aa7-a855-4dc0-a44d-34b3de7ef416",
             "Value": {
                 "id": "be3acd06-7920-4303-9881-676fc0a1f3a2",
                 "resourcePath": "objects\\obj_button\\obj_button.yy",
                 "resourceType": "GMObject"
+=======
+            "Key": "17781502-a21d-4c94-b111-7be876db82bb",
+            "Value": {
+                "id": "78e171e7-afb5-478f-9a6e-84c2889ab13d",
+                "resourcePath": "sprites\\spr_store_ropa2\\spr_store_ropa2.yy",
+                "resourceType": "GMSprite"
+>>>>>>> ffc2aa721e9d2ae25e5a974243a5522434cb70c3
             }
         },
         {
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "8d46f394-fb45-4c5c-91b3-8dc3c0617689",
+            "Value": {
+                "id": "6d10a188-8039-41f3-a681-6f625b742162",
+                "resourcePath": "sprites\\spr_store_ropa3\\spr_store_ropa3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "934b5f02-aeac-4fd9-ae16-a4b48e638cb1",
             "Value": {
                 "id": "584904ae-141c-45a3-9b26-0cb00d98d722",
@@ -223,11 +239,35 @@
             }
         },
         {
+            "Key": "ce403d45-a8da-4de5-baad-b08c07192923",
+            "Value": {
+                "id": "ef5605bb-6609-4637-a518-eed929ed1d0e",
+                "resourcePath": "sprites\\spr_store_books\\spr_store_books.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d8d786a9-fd29-46e0-8d6e-1da62d616cd3",
             "Value": {
                 "id": "63b4f3fb-31dc-4d22-910d-55eeba347bc0",
                 "resourcePath": "scripts\\scr_pathFinding\\scr_pathFinding.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e2786e94-c8c9-42cc-8e39-9e4e0f5de74b",
+            "Value": {
+                "id": "ea3a7d4b-c5af-4555-a7cb-646d9fa6df29",
+                "resourcePath": "sprites\\spr_floor_tiles\\spr_floor_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e85e376e-458d-4441-933f-fa7717aba43c",
+            "Value": {
+                "id": "6d3ea2d9-eb8e-4af2-862c-4a00affad78b",
+                "resourcePath": "sprites\\spr_store_ropa1\\spr_store_ropa1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
