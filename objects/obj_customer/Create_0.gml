@@ -5,7 +5,7 @@ currentPath=path_add();
 
 closeStores = [];
 closeDiscountStores = [];
-perceptionRadius = 96 * 8;
+perceptionRadius = 96 * 3;
 
 targetStore = 0;
 

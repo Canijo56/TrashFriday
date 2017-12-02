@@ -6,8 +6,10 @@ if (targetStore == 0){
 	for (var i = 0; i < storesLength; i++){
 		var store = stores[i];
 		var dist = distance_to_point(store.x, store.y); 
+		//Si esta en mi campo de visión
 		if (dist < perceptionRadius){
-			if (store.currentDiscount < 0){
+			//Si es una tienda sin ofertas la guardo en tiendas cercanas
+			if (store.currentDiscount <= 0){
 				closeStores[array_length_1d(closeStores)] = store.id;
 			}
 			else{
@@ -42,10 +44,13 @@ if (targetStore == 0){
 	
 		show_debug_message(array_length_1d(candidateStores));
 		targetStore = candidateStores[max(irandom(array_length_1d(candidateStores))-1,0)];
+		scr_pathFinding(targetStore.x, targetStore.y+96);
 	}
-	else{
+	else if(array_length_1d(closeStores)){
 		targetStore = closeStores[max(irandom(array_length_1d(closeStores))-1,0)];
+		scr_pathFinding(targetStore.x, targetStore.y+96);
 	}
-	scr_pathFinding(targetStore.x, targetStore.y);
+	
 	alarm[0] = 4 * room_speed;
 }
+
